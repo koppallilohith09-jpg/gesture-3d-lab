@@ -1,0 +1,21 @@
+{
+  "name": "gesture-3d-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Explore a spatial model with hand tracking, mouse or keyboard.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "setup:model": "node setup-model.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "config": {
+    "port": 8802
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.1"
+  }
+}
